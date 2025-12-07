@@ -149,11 +149,17 @@ body {
 /* --- Header --- */
 .app-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    /* Push content to right */
     align-items: center;
-    padding: var(--space-md) 0;
-    margin-bottom: var(--space-xl);
+    padding: 0.5rem 1rem;
 }
+
+.controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
 
 .logo {
     display: flex;
@@ -167,12 +173,6 @@ body {
 
 .logo i {
     color: #8b5cf6;
-}
-
-.controls {
-    display: flex;
-    gap: var(--space-md);
-    align-items: center;
 }
 
 /* --- Typography --- */
@@ -526,4 +526,26 @@ select {
     h1 {
         font-size: 2rem;
     }
+
+    /* Add overlap protection on mobile */
+    #app {
+        padding-bottom: 100px;
+    }
+}
+
+/* --- Fixed Bottom Button Position --- */
+.fixed-bottom-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+    /* Add shadow for separation */
+}
+
+.fixed-bottom-btn:hover {
+    transform: translateX(-50%) translateY(-2px);
+    /* Maintain centering on hover */
+    box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.6);
 }
