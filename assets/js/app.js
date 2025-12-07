@@ -11,6 +11,7 @@ const ICONS = {
     twitter: 'ph-x-logo',
     portfolio: 'ph-globe',
     email: 'ph-envelope',
+    instagram: 'ph-instagram-logo',
     discord: 'ph-discord-logo',
     leetcode: 'ph-code',
     custom: 'ph-link'
