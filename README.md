@@ -4,7 +4,7 @@ LinkSnap is a lightweight, privacy-focused web application designed to help job 
 
 Stop searching for your LinkedIn, GitHub, or Portfolio links every time you apply for a job. Store them once in LinkSnap and copy them instantly with a single click.
 
-![LinkSnap Preview](<img width="3840" height="2010" alt="Kaizuna" src="https://github.com/user-attachments/assets/1c0b8b8e-bd2b-4fe9-8fcf-6e3fe3ea5739" />)
+![LinkSnap Preview](Kaizuna.png)
 
 
 ## ✨ Features
